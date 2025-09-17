@@ -1,0 +1,51 @@
+.app {
+  background: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 8px;
+  width: 300px;
+}
+
+.controls button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.panel {
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.panel-image {
+  background: #333;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.panel-text {
+  font-style: italic;
+  font-size: 14px;
+}
